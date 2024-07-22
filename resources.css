@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+}
+body {
+    font-family: Arial, sans-serif;
+   
+}
+
+header {
+    height: 100px;
+    background-color: #333;
+    display: flex;
+    column-gap: 60px;
+    align-items: center;
+}
+
+
+    
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    transition: 0.40s all;
+
+}
+nav ul li a:hover{
+    color:black;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+button{
+    margin-left: 90px;
+    background-color:  #55b7ca;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 10px;
+}
+button a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    
+}
+button:hover{
+    color: white;
+    background-color: gray;
+}    footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+    font-size: 20px;
+
+}
+
+.footer-section {
+    flex: 1;
+    margin: 10px;
+}
+
+.footer-section h3 {
+    margin-top: 0;
+}
+
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin: 20px 0;
+}
+
+.footer-section ul li a {
+    color: white;
+    text-decoration: none;
+    
+    
+}
+
+.footer-section p {
+    margin-top: 20px;
+    
+}
+.icons a{
+    margin: 10px;
+    cursor: pointer;
+}
+
+
+
+
+.footer-bottom {
+    background-color: #222;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+.home{
+    height: 500px;
+    width: 100%;
+    background-image: url(images/home\ b.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.home h1{
+    color: white;
+    padding-top: 100px;
+    font-size: 60px;
+}
+.home p{
+    color: white;
+    padding-top: 10px;
+    font-size: 20px;
+}
+.home img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin: 10px;
+    border:#55b7ca 3px solid;
+    margin-top: 50px;
+}
+
+
+.home1{
+    height: 600px;
+    width: 100%;
+    background-image: url(images/home\ 1.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.home1 h1{
+    color: white;
+    padding-top: 100px;
+    font-size: 60px;
+}
+.home1 p{
+    color: white;
+    padding-top: 10px;
+    padding: 5px;
+    font-size: 20px;
+}
+.home1 button{
+    margin-top: 100px;
+    margin-right: 80px;
+}
