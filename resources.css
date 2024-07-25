@@ -13,6 +13,8 @@ body {
    
 }
 
+
+
 header {
     height: 100px;
     background-color: #333;
@@ -20,10 +22,6 @@ header {
     column-gap: 60px;
     align-items: center;
 }
-
-
-    
-
 nav ul {
     list-style-type: none;
     margin: 0;
@@ -65,7 +63,12 @@ button a{
 button:hover{
     color: white;
     background-color: gray;
-}    footer {
+}  
+
+
+
+
+footer {
     background-color: #333;
     color: white;
     padding: 20px 0;
@@ -114,20 +117,19 @@ button:hover{
     margin: 10px;
     cursor: pointer;
 }
-
-
-
-
 .footer-bottom {
     background-color: #222;
     padding: 10px 0;
     margin-top: 20px;
 }
 
+
+
+
 .home{
     height: 500px;
     width: 100%;
-    background-image: url(images/home\ b.jpg);
+    background-image: url(images/learn.jpg);
     background-size: cover;
     background-position: center;
     margin-top: 50px;
@@ -157,7 +159,7 @@ button:hover{
 .home1{
     height: 600px;
     width: 100%;
-    background-image: url(images/tuto.jpg);
+    background-image: url(images/latest.jpg);
     background-size: cover;
     background-position: center;
     margin-top: 50px;
